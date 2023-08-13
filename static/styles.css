@@ -4,8 +4,15 @@ body {
 }
 
 #nav, #footer {
+    text-align: center;
     background-color: #eee;
     padding: 1em;
+}
+
+#nav a {
+    margin: 0 45px;
+    padding-right: 10px; /* Add padding to the right */
+    text-decoration: none;
 }
 
 #content {
