@@ -6,13 +6,18 @@ body {
 #nav, #footer {
     text-align: center;
     background-color: #eee;
-    padding: 1em;
+    padding: 2.25em;
 }
 
 #nav a {
-    margin: 0 45px;
-    padding-right: 10px; /* Add padding to the right */
+    margin: 0 10px;
     text-decoration: none;
+    padding: 15px 20px;
+}
+
+#nav a:hover {
+    background-color: #dfdfdf;
+
 }
 
 #content {
